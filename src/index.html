@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 07
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt="">
+        <img src="https://logodownload.org/wp-content/uploads/2017/12/dragon-ball-super-logo-2.png" class=page-title>
+        <h1 class="page-subtitle">Super Trunfo</h1>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear Carta</button>
+      
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="opcoes" id="opcoes"></div>
+          
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+          <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="false">Próxima Rodada</button>
+          
+          <div id="placar"></div>
+          <div id="quantidade-cartas"></div>
+        </form>
+      
+        <h3 id="status"></h3>
+      
+   <br> <img id="cartaJogador" >
+        <img id="versos" >
+        <img id="cartaMaquina" > <br>
+      
+        <button type="button" id="btnNovoJogo" onclick="novoJogo()">Novo Jogo</button>
+    </div>
+    <footer>ImageCards by Eduardo Medeiros</footer>
+  
+</body>
+
+</html>

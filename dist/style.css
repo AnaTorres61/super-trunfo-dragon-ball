@@ -1,0 +1,100 @@
+*{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #2F7AC5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: yellow;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 450px;
+    background-image: url('https://i.pinimg.com/originals/37/8c/c8/378cc8dfbe9f032764769ffbf752a5ce.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-logo {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+  }
+
+.page-title{
+  height: 150px;
+  width: 300px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button {
+  padding: .8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 2px 2px #FFB71E;
+  transform: scale(1.05)
+}
+button:disabled{
+  cursor: auto;
+  box-shadow: none; 
+}
+
+h2 {
+    color: white;
+}
+
+.opcoes {
+    color: white;
+}
+
+#placar, #quantidade-cartas {
+    color: white;
+}
+
+h3{
+  color:white;
+  font-size: 30px;
+  margin-top: 1px;
+}
+
+img{
+  width: 170px;
+}
+
+#cartaJogador, #cartaMaquina{
+  box-shadow: 5px 5px 3px black;
+}
+
+#btnNovoJogo{
+  margin-top:50px;
+}
+
+footer{
+  position: absolute;
+  color: white;
+  top: 1px;
+  right: 1px;
+  font-size: 11px;
+}
